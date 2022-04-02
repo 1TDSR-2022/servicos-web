@@ -1,0 +1,16 @@
+p
+    {
+        color: white;
+        background-color: #f08;
+    }
+h1 {
+    color: blue;
+    text-align: center;
+    background-color:brown;
+    border-radius: 5px;
+    font-family: 'courier new', courier, monospace;
+    font-size: medium;
+    font-weight:600px;
+    text-shadow: yellowgreen 2px 2px ;
+    opacity: 0.8;
+}
