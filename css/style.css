@@ -1,0 +1,32 @@
+body {
+    background: rgb(100, 100, 100);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 2rem;
+}
+
+footer {
+    flex: 1;
+}
