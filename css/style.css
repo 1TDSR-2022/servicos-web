@@ -1,32 +1,322 @@
+:root {
+    --background-color: rgb(32, 33, 36);
+    --nav-footer-color: rgba(107, 58, 107, 0.507);
+    --nav-footer-border-color: rgb(189, 63, 206);
+    --section-color: rgba(60, 85, 99, 0.5);
+    --section-border: rgb(160, 188, 197);
+    --aside-color: rgba(223, 155, 78, 0.3);
+    --aside-border: rgb(255, 169, 71);
+    --anchor-color: rgb(221, 71, 71);
+    --text-color: rgb(255, 255, 255);
+    --servicos-color: rgba(127, 179, 84, 0.2);
+    --servicos-border-color: rgb(127, 179, 84);
+    --hr-color: rgb(240, 128, 0);
+}
+
 body {
-    background: rgb(100, 100, 100);
-    color: #fff;
+    background: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
 }
 
-#page {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
+img {
+    max-width: 100%;
+}
+
+h1 {
+    margin: 0 0 2rem 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+hr {
+    border: 1rem dotted;
+    border-style: none none dotted;
+    color: rgb(56, 56, 56);
+    width: 12%;
+    margin: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--anchor-color);
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+#home-page {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 70% 30%; 
+    grid-template-rows: 10em auto 10em; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "nav nav"
+        "content aside"
+        "footer footer"; 
+        caret-color: transparent;
 }
 
 nav {
-    flex: 1;
+    grid-area: nav;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background: var(--nav-footer-color);
+    box-shadow: 0 0 1rem rgb(255, 103, 235);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55%;
+    width: 90%;
+    border-bottom: 1px solid rgba(255, 131, 249, 0.2);
+    font-size: 2rem;
+    overflow: hidden;
+    /* background: red; */
+}
+
+#logo a:hover {
+    opacity: 20%;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    /* background: red; */
+    margin: 0;
+    padding: 2rem 15rem;
+}
+
+nav a:hover {
+    opacity: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 45%;
+    /* background: blue; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 3px solid var(--nav-footer-border-color);
+    flex: 1;
+    height: 100%;
+    font-size: 1.3rem;
+    overflow: hidden;
+}
+
+nav ul li:hover {
+    opacity: 20%;
+}
+
+#content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: greenyellow; */
+    padding: 5rem 1rem 5rem 4rem;
+}
+
+#content p {
+    margin-bottom: 2rem;
+}
+
+#content img {
+    max-width: 40%;
+    border-radius: 1em;
+}
+
+header {
+    padding: 2rem;
+    border:2px solid var(--section-border);
+    background: var(--section-color);
+    box-shadow: 0 0 .7rem rgb(164, 241, 255);
+    border-radius: 2em;
+}
+
+header h1 {
+    color: var(--section-border);
+}
+
+#servicos {
+    padding: 4rem;
+    border:2px solid  var(--servicos-border-color);
+    background: var(--servicos-color);
+    box-shadow: 0 0 .7rem rgb(182, 255, 164);
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#servicos h2 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+#servicos h3 {
+    color: var(--servicos-border-color);
+    font-size: 2rem;
+}
+
+#servicos hr {
+    width: 14%;
+    color: var(--servicos-color);
+}
+
+#servicos div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10%;
+}
+
+#sobre {
+    padding: 2rem;
+    border:2px solid  var(--section-border);
+    background: var(--section-color);
+    box-shadow: 0 0 .7rem rgb(164, 241, 255);
+    border-radius: 2em;
+}
+
+#sobre h1 {
+    color: var(--section-border);
+}
+
+aside {
+    grid-area: aside;
+    margin: 5rem 4rem 5rem 4rem;
+    padding: 2rem;
+    border:2px solid  var(--aside-border);
+    background: var(--aside-color);
+    box-shadow: 0 0 .7rem rgb(255, 231, 164);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2em;
+}
+
+#imagens {
+    /* background: wheat; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    color: var(--aside-border);
+}
+
+#imagens img {
+    border-radius: 1em;
+}
+
+#imagens h2{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#imagens hr {
+    border: .5rem dotted;
+    border-style: none none dotted;
+    color: var(--aside-color);
+    width: 12%;
+    margin: 3rem;
+}
+
+#contato {
+    width: 100%;
+    /* background: red; */
+}
+
+#contato div {
+    width: 100%;
+    /* background: orange; */
+}
+
+#contato h2 {
+    margin-bottom: 1rem;
+    color: var(--aside-border);
+}
+
+#contato p {
+    margin-bottom: 1rem;
+}
+
+#contato a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: white; */
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--nav-footer-color);
+    border-top: 3px solid var(--nav-footer-border-color);
+    position: static;
+    /* box-shadow: 0 0 .5rem white; */
+}
+
+footer a {
+    height: 30%;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-nav ul {
+footer span {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 20%;
+    border-bottom: 1px solid var(--nav-footer-border-color);
+    /* background: red; */
 }
 
-nav ul li {
-    margin-right: 2rem;
+footer p {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-footer {
-    flex: 1;
+footer span p {
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    height: 100%;
+    /* background: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
