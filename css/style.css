@@ -2,3 +2,14 @@ p {
   background: #00f;
   color: #fff;
 }
+h1 {
+  color: #00f;
+  text-align: center;
+  background-color: brown;
+  border-radius: .2rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: 600;
+  text-shadow: 2px 2px yellow;
+  letter-spacing: 4px;
+}
