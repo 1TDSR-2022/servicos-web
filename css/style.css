@@ -7,3 +7,15 @@ p{
 
 
 }
+h1{
+    text-align: center;
+    background-color: brown;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font: large;
+    font-weight: 600;
+    text-shadow: yellow 2px 2px;
+    opacity: 0.8;
+  
+  
+  }
