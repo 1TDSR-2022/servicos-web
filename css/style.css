@@ -1,12 +1,12 @@
 h1{
-    color: blue;
+    color: red;
     text-align: center;
-    background-color: brown;
+    background-color: black;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     font-weight: 600;
-    text-shadow: yellow 2px 2px;
+    text-shadow: white 2px 2px;
     letter-spacing: 2px;
     opacity: 9.0;
 }
