@@ -1,4 +1,19 @@
 p{
-    color: white;
-    background-color: red;
+    color: black;
+    background-color: whitesmoke;
+}
+
+h1{
+    color:blueviolet;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 400;
+    text-shadow: yellow 2px 2px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    opacity: 20;
+
 }
