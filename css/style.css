@@ -1,4 +1,46 @@
-p {
-    color: white;
-    background-color: pink;
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+  
+
+/* GRUPO TEXTO */
+body {
+    font-family: 'Oswald', sans-serif; 
 }
+
+#topo {
+    font-family: 'Nunito', sans-serif;
+}
+
+#topo h1{
+    text-align: center;
+    text-shadow: red 2px 2px 2px;
+}
+
+.txt-css {
+    color: red;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+/* GRUPO TEXTO */
+
+/* 
+font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+/*GRUPO CORES + PSEUDO CLASSES*/
+    a{
+        text-decoration: none;
+        color: #ed1458;
+        transition: color 1s, font-size 2s;
+    }
+
+    a:hover {
+        color: #7fffd4;
+        font-size: 2em;
+    }
+/*GRUPO CORES*/
+
+
