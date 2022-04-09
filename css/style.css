@@ -1,7 +1,40 @@
-body{
-    background-color: #99e6e6;
-}
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
 
-h1{
+    body{
+    background-color: #99e6e6;
+    font-family: 'Oswald', sans-serif;
+    }
+
+    #topo{
+    font-family: 'Asap', sans-serif;
+    }
+
+    #topo h1{
+        text-shadow: #0172ff 2px 2px 1px;
+    }
+
+    h1{
     text-align: center;
-}
+    }
+
+    a{
+        color: #0172ff ;
+        font-family: 'Asap', sans-serif;
+    }
+
+    a:hover{
+        color: #001f61;
+    }
+
+    h2{
+        color: #0051ff;
+    }
+
+    h3{
+        color: #0051ff;
+    }
+
+
+/*font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;*/
