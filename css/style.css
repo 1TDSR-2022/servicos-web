@@ -1,8 +1,70 @@
-p{
-    color: white;
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+
+/* Grupo Texto */
+body{
+    font-family: 'Oswald', sans-serif;
 }
+
+/* SELETOR ID - UTILIZAMOS # + O nome do seletor. Ex: #Seletor */
+#topo{
+    font-family: 'Asap', sans-serif;
+}
+#topo h1{
+    text-align: center;
+    text-shadow: grey 2px 2px; 
+}
+
+/* SELETOR CLASS - UTILIZAMOS O . + O nome do seletor. Ex: .quadrado */
+.txt-css{
+    color:red;
+    font-family: 'Nunito',sans-serif;
+    font-style: italic;
+    text-decoration:overline ;
+}
+
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+
+/* GRUPO TEXTO + PSEUDO CLASSES*/
+    a{ 
+        text-decoration: none;
+        color: #ed1458;
+        transition: color 3s, font-size 1s;
+    }
+    a:hover{
+        color: #0000ff;
+        border:solid #ff0000 2px;
+        font-size: 2em;
+    }
+/* GRUPO CORES */
+
+
+
+
+
+/* GRUPO CORES */
+
+
+
+
+
+
+/*
 h1{
-    color: blue; text-align: center;background-color: brown;border-radius: 5px; font-family:'Courier New', Courier, monospace; font-size: large;
-    font-weight: 400px; text-shadow: yellow 2px 2px; letter-spacing: 2px; border-radius: 10px; opacity: 0.8;
+    color: blue; 
+    text-align: center;
+    background-color: brown;
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace; 
+    font-size: large;
+    font-weight: 400px;
+    text-shadow: yellow 2px 2px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    opacity: 0.8;
 }
+*/
