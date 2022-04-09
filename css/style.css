@@ -1,7 +1,60 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+
+/*grupo texto*/
+body{
+    font-family: "Oswald", sans-serif;
+}
+
+/*Seletor id - utilizamos # + o nome do seletor Ex #seletor f12 no navegador*/
+
+#topo{
+    font-family: "Nunito", sans-serif;
+}
+
+#topo h1{
+    text-transform: lowercase;
+    text-align: center;
+    text-shadow: rgb(242, 106, 242) 2px 2 px 2 px;
+    text-transform: capitalize;
+}
+
+
+/*Seletor CLASS - utilizamos . + o nome do seletor Ex: .quadrado */
+
+.txt-css{
+    color: red;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    text-decoration: overline;
+}
+
+#topo p span{
+    font-size: 2em;
+}
+
+/*font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;*/
+
+/*Grupo cores + pseudo classe * exadecimal, literal e rgb e rgba com o alfa, houver para quando o mousse passar por cima*/
+
+    a{
+        text-decoration: none;
+        color: #ed1458;
+        color: deeppink;
+        color: rgb(255, 20, 147);
+    }
+    a:hover{
+        color: #0000ff;
+        border: solid #ff0000 2px
+    }
+
+/*Grupo cores + pseudo classe */
+
+/*h1{
     color: blue;
     text-align: center;
-    background-color: brown;
+    background-color: browsn;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
@@ -10,3 +63,5 @@ h1{
     letter-spacing: 2px;
    opacity: 0.6;
 }
+
+
