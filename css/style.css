@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+
+
+/* GRUPO TEXTO */
+
+    body{
+        /* font-family: 'Courier New', 'Times New Roman', serif; */
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    /* SELETOR ID  - UTILIZAMOS # + O NOME DO SELETOR EX : #SELETOR */
+
+    #topo{
+        font-family: 'Nunito', sans-serif;
+    }
+
+    #topo h1{
+        text-align: center;
+        text-shadow: red 2px 2px 2px;
+        text-transform: capitalize;
+    }
+
+    /* SELETOR CLASS - UTILIZAMOS . + O NOME DO SELETOR EX: .quadrado */
+
+    .txt-css{
+        color: red;
+        font-family: 'Nunito', sans-serif;
+        font-style: italic;
+        text-decoration: overline;
+    }
+
+    #topo .txt-css{
+        font-size: 2em;
+    }
+
+/* font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+/* GRUPO TEXTO */
+
+/* GRUPO CORES + PSEUDO CLASSES */
+
+    a{
+        text-decoration: none;
+        color: #ed1458;
+        /* color: deeppink;
+        color: rgb(255, 20, 147); */
+        transition: color 1s, font-size 2s;
+    }
+
+    a:hover{
+        color: #0000ff;
+        border: solid #ff0000 2px;
+        font-size: 2em;
+    }
+
+/* GRUPO CORES */
