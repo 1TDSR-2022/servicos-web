@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+
+
+/* GRUPO TEXTO */
+
+body{
+    font-family: 'Asap', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+
 p{
     color: white;
     background-color: red;
