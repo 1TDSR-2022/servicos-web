@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@500&family=Oswald:wght@500&display=swap');
+head{
+    
+}
 body {
     font-family: 'Oswald', sans-serif;
 }
+#topo{
+    font-family: 'Asap', sans-serif;
+}
+    a {
+        text-decoration: none;
+        color : #ff1493;
+    }
 /*
 font-family: 'Asap', sans-serif;
 font-family: 'Nunito', sans-serif;
