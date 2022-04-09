@@ -1,4 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+
+/* GRUPO TEXTO  */
+body {
+    font-family: "Oswald", sans-serif;
+}
+
+/*SELETOR ID = ITILIZAMOS # + o nome do seletor Ex: #seletor*/
+#topo{
+    font-family: 'Asap', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+#topo h1{
+text-align: center;
+text-shadow: red 2px 2px 2px;
+text-transform: capitalize;
+}
+/* SELETOR CLASS - UTILIZANDO . + nome do seletor Ex: .quadrado
+*/
+.txt_css{
+    color: red;
+    font-family: "Nunito", sans-serif;
+    font-family: italic;
+    text-decoration: overline;
+}
+#topo p span{
+    font-size: 2em;
+}
+
+/* GRUPO TEXTO */
+/*
+font-family: 'Asap', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+
+/* GRUPO CORES + PSEUDO CLASSEs */
+    a{
+        text-decoration: none;
+        color:#ed1458;
+
+       /* color:red#ff1493;
+        color:#ff1493; 
+        color:rgb(red, green, blue);
+        */
+        transition: color 1s, font-size 2s;
+    }
+    a:hover {
+        color: blue;
+        border: solid #ff0000 2px;
+        font-size: 2em;
+/* GRUPO CORES  */ 
+/* COMENTARIO CSS 
 h1{
+
+/*
     color:blue;
     text-align: center;
     background-color:brown;
@@ -10,3 +65,5 @@ h1{
     letter-spacing: 2px;
     opacity: 0.8;
 }
+
+*/
