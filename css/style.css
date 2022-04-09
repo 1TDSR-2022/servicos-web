@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+/* importação de fontes externas
+
+
+/* Grupo texto*/
+body{
+
+
+   font-family: 'Oswald', 'Nunito' , 'serif';
+
+}
+/*Seletor id - usamos# mais o nome do seletor, ex:#seletor*/
+ 
+
+
+
+ 
+ #topo h1{
+    text-transform: lowercase;
+    text-align: center;
+    text-transform: inherit;
+    
+ }
+ /*Usamos seletor class para formatar varios seletores .+ o nome do seletor = ex; .classe*/
+
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+/* A fonte será  buscada pela ordem, caso nenhuma seja marcada, ele irá usar a do navegador.Para força-lo a procurar uma fonte serifada, use 'serif', o mesmo serve para não serifadas com 'sans serif'.
+/* Grupo texto*/
+
+.txt-css{
+
+  color: rebeccapurple;
+  font-family: 'Nunito', 'sans-serif';
+  font-style: italic;
+  text-decoration: overline;
+
+
+}
+
+
+
+
+
+
 
 p{
 
