@@ -18,7 +18,7 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Oswald', sans-serif;
 */
 h1{
-    color: blue;
+    color: blue; 
     text-align: center;
     background-color: brown;
     border-radius: 5px;
@@ -28,4 +28,7 @@ h1{
     text-shadow: yellow 2px 2px;
     letter-spacing: 2px;
     opacity: 0.8;
+}
+h2{
+    text-align: center;
 }
