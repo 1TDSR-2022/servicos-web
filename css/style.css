@@ -9,6 +9,11 @@
     /* SELETOR ID - UTILIZAMOS # + o nome do seletor Ex: #seletor */
     #topo{
         font-family: 'Asap', sans-serif;
+        font-size: 16px;
+    }
+
+    #topo p{
+        font-size: 1.2rem;
     }
 
     #topo h1{
@@ -24,6 +29,10 @@
         font-family: 'Nunito', sans-serif;
         font-style: italic;
         text-decoration: underline;
+    }
+
+    #topo p span{
+        font-size: 2rem;
     }
 
 /* GRUPO TEXTO */
@@ -49,8 +58,29 @@ font-family: 'Oswald', sans-serif;
     a:hover{
         color: #0000ff;
         border:solid #ff0000 2px;
-        font-size: 2em;
+        font-size: 4rem;
     }
+
+    a:visited{
+        color: chartreuse;
+    }
+
+    a:link{
+        color: darkorange;
+    }
+
+    h2:hover{
+        color:darkred
+    }
+
+    #topo{
+        background-image: url("../imagens/fundo-pc.jpg");
+    }
+
+    #bg{
+        background-image: url("../imagens/eventos.jpg");
+    }
+
 /* GRUPO CORES + PSEUDO CLASSES*/
 
 
