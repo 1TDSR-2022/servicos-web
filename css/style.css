@@ -56,6 +56,10 @@ font-family: 'Oswald', sans-serif;
         border: solid #ff0000 2px;
         font-size: 2em;
     }
+
+    a:visited{
+        color: chartreuse;
+    }
 /* GRUPO CORES */
 
 
