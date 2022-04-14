@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@700&family=Oswald:wght@200;500&display=swap');
 
 /* GRUPO TEXTO  */
+html{
+    font-size: 20px;
+}
 body{
     /* font-family:'Courier News', 'Times New Grego', serif; */
     font-family: 'Oswald', sans-serif;
+
 }
  
    /* SELETOR ID - UTILIZAMOS # + o nome do seletor Ex: #seletor */
 #topo{
     font-family: 'Asap', sans-serif;
+    font-size: 16px;
 }
-
+#topo p {
+    font-size: 1.2rem;
+}
 #topo h1 {
     text-align: center;
     text-shadow: red 2px 2px 2px;
@@ -28,7 +35,7 @@ body{
 }
 
 #topo p span {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 /* GRUPO TEXTO */
@@ -46,13 +53,33 @@ font-family: 'Oswald', sans-serif;
    /*      color: red;
         color: #00ff0033; 
         color: rgba(19, 90, 223, 0.295); */
-        transition: color 2s font-size 2s;
+        transition: color 2s , font-size 2s;
     }
 
     a:hover{
         color: #0000ff;
         border: solid #ff0000 2px;
-        font-size: 2em;
+        font-size: 4rem;
+    }
+
+    a:visited{
+        color: chartreuse;
+    }
+    
+    a:link{
+        color: darkorange;
+    }
+
+    h2:hover{
+        color: darkred;
+    }
+
+    #topo{
+        background-image: url("../img/fundo-pc.jpg");
+    }
+
+    #bg{
+        background-image: url("../img/eventos.jpg");
     }
 /* GRUPO CORES */
 
