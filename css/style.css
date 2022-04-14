@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,600&family=Nunito:wght@700&family=Oswald:wght@500;700&display=swap');
 
 /* GRUPO TEXTO */
+    html{
+        font-size: 40px;
+    }
+
     body{
         /* font-family: 'Courier News', 'Times New Grego',serif; */
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Asap', sans-serif;
     }
     
     /* SELETOR ID - UTILIZAMOS # + o nome do seletor Ex: #seletor */
-    #topo{
-        font-family: 'Asap', sans-serif;        
+    #topo p{
+        font-size: 1.2em;        
     }
 
     #topo h1{
@@ -63,6 +67,10 @@ font-family: 'Oswald', sans-serif;
 
     a:link{
         color:darkorange;
+    }
+
+    h2:hover{
+        color:darkred
     }
 
 /* GRUPO CORES */
