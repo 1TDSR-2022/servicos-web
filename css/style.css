@@ -3,24 +3,54 @@
 
 
 /* Grupo texto*/
+html{
+font-size: 40em
+
+
+
+
+
+
+
+
+
+
+
+
+
+;
+
+
+}
 body{
 
 
    font-family: 'Oswald', 'Nunito' , 'serif';
+   font-size: 32px;
 
 }
 /*Seletor id - usamos# mais o nome do seletor, ex:#seletor*/
- 
+ /*  % medida responsiva*/
+ /*en = 16px*/
 
+#topo {
+    font-family:"Oswald", "Sans-serif" ;
 
+   background-image: url("../img/fundo-pc.jpg");
+}
+#topo p{
+ font-size: 1.2em;
 
+}
  
  #topo h1{
-    text-transform: lowercase;
+    text-shadow: red 2px 2px 2px;
     text-align: center;
-    text-transform: inherit;
+    text-transform:capitalize;
     
  }
+
+ #topo p 
  /*Usamos seletor class para formatar varios seletores .+ o nome do seletor = ex; .classe*/
 
 /*
@@ -39,11 +69,38 @@ font-family: 'Oswald', sans-serif;
 
 
 }
+a{
+ text-decoration: none;
+ color:#ed1458;
+ transition: color 1s ;
 
 
 
+}
+
+a:hover {
+  color: rgb(27, 27, 90);
+  border: solid red 2px;
+  font-size: 2em;
 
 
+}
+
+a:visited{
+  color:chartreuse;
+
+
+
+}
+
+
+
+h2:hover{
+ color:red
+
+
+
+}
 
 
 p{
