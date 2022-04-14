@@ -8,9 +8,12 @@ body {
 /*SELETOR ID = ITILIZAMOS # + o nome do seletor Ex: #seletor*/
 #topo{
     font-family: 'Asap', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
 }
+#topo p{
+    font-size: 1.2em;
+}
+
 #topo h1{
 text-align: center;
 text-shadow: red 2px 2px 2px;
@@ -18,11 +21,11 @@ text-transform: capitalize;
 }
 /* SELETOR CLASS - UTILIZANDO . + nome do seletor Ex: .quadrado
 */
-.txt_css{
+.txt-css{
     color: red;
     font-family: "Nunito", sans-serif;
     font-family: italic;
-    text-decoration: overline;
+    text-decoration: underline;
 }
 #topo p span{
     font-size: 2em;
@@ -48,7 +51,24 @@ font-family: 'Oswald', sans-serif;
     a:hover {
         color: blue;
         border: solid #ff0000 2px;
-        font-size: 2em;
+        font-size: 4rem;
+    }
+    a:visited{
+        color: chartreuse;
+    }
+    a:link{
+        color: darkorange;
+    }
+    h2:hover{
+        color: darkred;
+    }
+    #topo{
+        background-image: url("../img/fundo-pc.jpg");
+    }
+    #bg{
+        background-image: url('../img/eventos.jpg');
+    }
+
 /* GRUPO CORES  */ 
 /* COMENTARIO CSS 
 h1{
