@@ -8,7 +8,11 @@
     
     /* SELETOR ID - UTILIZAMOS # + o nome do seletor Ex: #seletor */
     #topo{
-        font-family: 'Asap', sans-serif;        
+        font-family: 'Asap', sans-serif;    
+        background-image: url(../img/fundo-pc.jpg);    
+    }
+    #topo p{
+        font-size: 1.2em;
     }
 
     #topo h1{
@@ -55,6 +59,17 @@ font-family: 'Oswald', sans-serif;
         color: #0000ff;
         border: solid #ff0000 2px;
         font-size: 2em;
+    }
+
+    a:visited{
+        color:chartreuse
+    }
+
+    a:link{
+        color: #0000ff;
+    }
+    h2:hover{
+        color: darkred;
     }
 /* GRUPO CORES */
 
