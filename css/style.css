@@ -12,6 +12,7 @@ body {
         text-decoration: none;
         color : #ff1493;
     }
+   
 /*
 font-family: 'Asap', sans-serif;
 font-family: 'Nunito', sans-serif;
@@ -31,4 +32,8 @@ h1{
 }
 h2{
     text-align: center;
+}
+ 
+a{
+    
 }
