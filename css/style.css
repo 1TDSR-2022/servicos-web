@@ -9,6 +9,11 @@ body{
 
 #topo{
     font-family: "Nunito", sans-serif;
+    font-size: 1em;
+}
+
+#topo p {
+    font-size: 1.23em;
 }
 
 #topo h1{
@@ -29,7 +34,7 @@ body{
 }
 
 #topo p span{
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 /*font-family: 'Asap', sans-serif;
@@ -43,12 +48,33 @@ font-family: 'Oswald', sans-serif;*/
         color: #ed1458;
         color: deeppink;
         color: rgb(255, 20, 147);
-    }
-    a:hover{
-        color: #0000ff;
-        border: solid #ff0000 2px
+        transition: color 1s, font-size
     }
 
+    a:hover{
+        color: #0000ff;
+        border: solid #ff0000 2px;
+        font-size:4rem;
+    }
+    a:visited{
+        color: chartreuse;
+    }
+
+    a:link{
+        color: darkorange
+    }
+
+    h2:hover{
+        color: firebrick;
+    }
+
+    #topo{
+        background-image: url("../img/fundo-pc.jpg");
+    }
+
+    #bg{
+        background-image: url('../img/eventos.jpg');
+    }
 /*Grupo cores + pseudo classe */
 
 /*h1{
