@@ -3,13 +3,22 @@
   
 
 /* GRUPO TEXTO */
+
+html {
+    font-size: 20px;
+}
 body {
     font-family: 'Oswald', sans-serif; 
 }
 
 #topo {
     font-family: 'Nunito', sans-serif;
+    font-size: 16px;
 }
+
+#topo p {
+    font-size: 1.2em;
+} 
 
 #topo h1{
     text-align: center;
@@ -34,13 +43,19 @@ font-family: 'Oswald', sans-serif;
     a{
         text-decoration: none;
         color: #ed1458;
-        transition: color 1s, font-size 2s;
+        transition: color 1s, font-size 1s;
     }
 
     a:hover {
         color: #7fffd4;
-        font-size: 2em;
+        font-size: 4rem;
     }
+
+    #topo{
+        background-image: url("../img/fundo-pc.jpg");
+    }
+
+   
 /*GRUPO CORES*/
 
 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta rel="stylesheet" href="./css/normalize.css"> 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./img/face.svg">
     <title>Serviços</title>
@@ -21,6 +22,10 @@
         </ul>
     </nav>
     
+    <div id="bg">
+        BACK-GROUND
+    </div>
+
     <header id="topo">
         <h1>Equipe de Ponta - Serviços Web</h1>
         <p>
@@ -86,7 +91,9 @@
         <img src="./img/comunicao.jpg" alt="Redes Neurais" width="100%">
     </section>
 
+   
     <section id="contato">
+         <!--
         <h2>Contato</h2>
         <p>Fale Conosco</p>
        
@@ -99,8 +106,31 @@
             <img src="./img/mail.png" alt="Email">
             <p><a href="mailto:joao_olli@hotmail.com">joao_olli@hotmail.com</a></p>
         </div>
+        -->
+
+        <div>
+            <div>
+                <form action="index.html" method="GET" onsubmit="true">
+                    <fieldset>
+                        <legend>LOGIN</legend>
+                        <div>
+                            <label for="qUserId">Usuário</label>
+                            <input type="text" name="qUser" id="qUserId" placeholder="Digite seu usuário">
+                        </div>
+                        <div>
+                            <label for="qPassId">Senha</label>
+                            <input type="password" name="qPass" id="qPassId" placeholder="Digite sua senha">
+                        </div>
+                        <div>
+                            <input type="submit" value="ENVIAR">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
 
     </section>
+    
 
     <footer>
         <a href="#topo">Voltar</a>
