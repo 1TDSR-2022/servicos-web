@@ -54,14 +54,14 @@ font-family: 'Oswald', sans-serif;
         font-size: 2em;
     }
 
-    a:visited{
+    /* a:visited{
         color: chartreuse;
 
     }
 
     a:link{
         color:darkorange;
-    }
+    } */
 
     h2:hover{
         color: darkred;
