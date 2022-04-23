@@ -1,93 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500&family=Nunito:wght@700&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,600&family=Nunito:wght@700&family=Oswald:wght@500;700&display=swap');
 
-/*grupo texto*/
-body{
-    font-family: "Oswald", sans-serif;
-}
+/* GRUPO TEXTO */
+    body{
+        /* font-family: 'Courier News', 'Times New Grego',serif; */
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    /* SELETOR ID - UTILIZAMOS # + o nome do seletor Ex: #seletor */
+    #topo{
+        font-family: 'Asap', sans-serif;        
+    }
 
-/*Seletor id - utilizamos # + o nome do seletor Ex #seletor f12 no navegador*/
+    #topo h1{
+        
+        text-align: center;
+        text-shadow: red 2px 2px 2px;
+        text-transform: capitalize;
+    }
 
-#topo{
-    font-family: "Nunito", sans-serif;
-    font-size: 1em;
-}
+    /* SELETOR CLASS - UTILIZAMOS . + o nome do seletor Ex: .quadrado */
 
-#topo p {
-    font-size: 1.23em;
-}
+    .txt-css{
+        color: red;
+        font-family: 'Nunito', sans-serif;
+        font-style: italic;
+        text-decoration: overline;
+    }
 
-#topo h1{
-    text-transform: lowercase;
-    text-align: center;
-    text-shadow: rgb(242, 106, 242) 2px 2 px 2 px;
-    text-transform: capitalize;
-}
+    #topo p span{
+        font-size: 2em;
+    }
 
+/* GRUPO TEXTO */
 
-/*Seletor CLASS - utilizamos . + o nome do seletor Ex: .quadrado */
-
-.txt-css{
-    color: red;
-    font-family: 'Nunito', sans-serif;
-    font-style: italic;
-    text-decoration: overline;
-}
-
-#topo p span{
-    font-size: 2rem;
-}
-
-/*font-family: 'Asap', sans-serif;
+/*
+font-family: 'Asap', sans-serif;
 font-family: 'Nunito', sans-serif;
-font-family: 'Oswald', sans-serif;*/
+font-family: 'Oswald', sans-serif;
+*/
 
-/*Grupo cores + pseudo classe * exadecimal, literal e rgb e rgba com o alfa, houver para quando o mousse passar por cima*/
-
+/* GRUPO CORES + PSEUDO CLASSES*/
     a{
         text-decoration: none;
         color: #ed1458;
-        color: deeppink;
-        color: rgb(255, 20, 147);
-        transition: color 1s, font-size
+        
+        /* color: red;
+        color: #00ff0033;
+        color: rgba(19, 90, 223, 0.295); */
+        transition: color 1s , font-size 2s;
+
     }
 
     a:hover{
         color: #0000ff;
         border: solid #ff0000 2px;
-        font-size:4rem;
+        font-size: 2em;
     }
-    a:visited{
-        color: chartreuse;
-    }
+/* GRUPO CORES */
 
-    a:link{
-        color: darkorange
-    }
 
-    h2:hover{
-        color: firebrick;
-    }
 
-    #topo{
-        background-image: url("../img/fundo-pc.jpg");
-    }
-
-    #bg{
-        background-image: url('../img/eventos.jpg');
-    }
-/*Grupo cores + pseudo classe */
-
-/*h1{
+/* COMENTÁRIO EM CSS */
+/* 
+h1{
     color: blue;
     text-align: center;
-    background-color: browsn;
+    background-color: brown;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: large;
     font-weight: 600;
     text-shadow: yellow 2px 2px;
     letter-spacing: 2px;
-   opacity: 0.6;
+    opacity: 0.8;
 }
 
+ */
 
