@@ -7,74 +7,160 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Serviços</title>
+
+        <script src="./js/script.js" defer></script>
+
+        <script>
+            //COMENTÁRIO DE LINHA
+            /*
+                    COMENTÁRIO DE BLOCO
+            */
+            console.log('Alô Você!')
+        </script>
+
+<!-- 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,600&family=Nunito:wght@700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<style>
+            @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,600&family=Nunito:wght@700&family=Oswald:wght@500;700&display=swap');
+        </style> -->
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/mail.png">
+
     </head>
 
-<body>
-    <nav><a href="#">Serviços</a>
-        <ul>
-             <li><a href="#sobre">Sobre</a></li>
-             <li><a href="#servicos">Serviços</a></li>
-             <li><a href="#imagens">Imagens</a></li>
-             <li><a href="#contato">Serviços</a></li>
-        </ul>
-    </nav>
+    <body>
+        <nav>
+            <a href="#" id="logo">Serviços</a>
+            <ul> 
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#imagens">Imagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
 
-    <header id="topo">
-        <h1>Equipe de Ponta - Serviços Web</h1>
-        <p>
-            Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
-            Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
-            Segurança da Informação também é uma especialidade que dominamos.
-        </p>
-        <a href="#servicos">Ver mais...</a>
-    
-    </header>
-
-    <section id="#sobre">
-        <h2>Sobre</h2>
-        <p>
-            A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
-            Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
-        </p>
-        <a href="#contato">Contrate Agora</a>
-    </section>
-
-    <section id="#servicos">
-        <h2>Serviços</h2>
-
-        <div>
-            <img src="./img/cursos.png" alt="Pessoa utilizando computador.">
-            <h3>cursos de programação</h3>
-            <p>
-                Oferecemos diversos cursos profissionalizantes, para que você saia preparado para o mercado de trabalho.
+        <header id="topo">
+            <h1>Equipe de Ponta - Serviços Web</h1>
+            <p onclick="alert('Alô Mundo!')" >
+                Somos uma equipe da área de <span class="txt-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
+                Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
+                Segurança da Informação também é uma especialidade que dominamos.
             </p>
-        </div>
+            <a href="#servicos">Ver mais...</a>
+        </header>
         
-    </section>
-
-    <section id="#media">
-        <h2>Social media</h2>
-
-        <div>
-            <img src="./img/icones.png" alt="redes sociais.">
-            <h3>Instagram, whatsapp, facebook, twitter</h3>
+        <section id="sobre">
+            <h2>Sobre</h2>
             <p>
-            Nos sigam nas redes sociais, respondemos mensagens e interagimos com nossos seguidores, além de ficar por dentro de quaisquer sorteios e promoções que fizermos!
+                A empresa <small class="txt-css">EQUIPE DE PONTA</small> foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+                Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
             </p>
-        </div>
+            <a href="#contato">Contrate Agora</a>
+        </section>
 
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
+        <section id="servicos">
+            <h2 class="txt-css">Serviços</h2>
 
-        <div>  
-            <img src="./img/tel.png" alt="icone de telefone">
-            <p>Entre em contato com nós</p>
-            <p>(11)9-9999-9999 - servicosweb@gmail.com - @servicosweb</p>
-        </div>
-    </section>
+            <div>
+                <img src="./img/cursos.png" alt="Icones de Linguagens de Programação." width="30%" title="Curso de diversas linguagens de programação.">
+                <h3>Cursos de Programação</h3>
+                <p>
+                    Diversos Cursos
+                </p>
+            </div>
+
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="Gadgets." width="30%" title="Desenvolvimento Web com plataformas Modernas.">
+                <h3>Desenvolvimento Web</h3>
+                <p>
+                    Desenvolvimento Web voltado para pequenas e grandes empresas.
+                </p>
+            </div>
+            
+            <div>
+                <img src="./img/eventos.jpg" alt="Fones de Ouvido." width="30%" title="Workshops Remotos.">
+                <h3>WorkShops</h3>
+                <p>
+                    Os melhores especialistas do mercado a sua disposição para ministrar conteúdo de primeira para sua equipe e clientes.
+                </p>
+            </div>
+
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%" title="Cuidado com os dados é primordial.">
+                <h3>Segurança da Informação</h3>
+                <p>
+                    Hoje a Segurança da Informação é algo que garante estabilidade e integridade dos dados.
+                </p>
+            </div>
+        </section>
+
+        <section id="imagens">
+            <h2>Imagens</h2>
+
+            <img src="./img/backbone.jpg" alt="Conexôes de Redes." width="100%">
+            <img src="./img/cidade.jpg" alt="Cidade." width="100%">
+            <img src="./img/internet.jpg" alt="Rede Mundial." width="100%">
+            <img src="./img/rede.jpg" alt="Redes Neurais." width="100%">
+            <img src="./img/icones.png" alt="Icones." width="100%">
+            <img src="./img/comunicao.jpg" alt="Redes Neurais." width="100%">
+
+        </section>
+
+        <section id="contato">
+            <!-- 
+            <h2>Contato</h2>
+            <p>Fale Conosco</p>
+            
+            <div>
+                <img src="./img/tel.png" alt="Telefone.">
+                <p><a href="tel:+5511986590987">(11) 98659-0987</a></p>
+            </div>
+
+            <div>
+                <img src="./img/mail.png" alt="Envelope.">
+                <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
+            </div>
+        -->
+
+            <div>
+                <div>
+                    <form action="index.html" method="POST" onsubmit="true">
+                        <fieldset>
+                            <legend>LOGIN</legend>
+                            <div>
+                                <label for="qUserId">Usuário</label>
+                                <input type="text" name="qUser" id="qUserId"  placeholder="Digite seu usuário">                                
+                            </div>
+                            <div>
+                                <label for="qPassId">Senha</label>
+                                <input type="password" name="qPass" id="qPassId"  placeholder="Digite sua senha">                                
+                            </div>
+                            <div>
+                                <input type="submit" value="ENVIAR">
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
 
 
-  </body>
+
+
+        </section>
+
+        <footer>
+            <a href="#topo">Voltar</a>
+            <p>Desenvolvido por <span>PF0670</span></p>
+            <p>Todos os direitos reservados. 2022&copy;</p>
+        </footer>
+
+        <script>
+            console.warn('ÚLTIMA LINHA!')
+        </script>
+    </body>
 
 </html>
