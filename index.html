@@ -8,23 +8,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Serviços</title>
 
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="./img/mail.png">
+        <script src="./js/script.js" defer></script>
 
-        <style>
-            p{
-                color: white;
-                background-color: red;
-            }
-        </style>
+        <script>
+            //COMENTÁRIO DE LINHA
+            /*
+                    COMENTÁRIO DE BLOCO
+            */
+            console.log('Alô Você!')
+        </script>
+
+<!-- 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,600&family=Nunito:wght@700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<style>
+            @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,600&family=Nunito:wght@700&family=Oswald:wght@500;700&display=swap');
+        </style> -->
+
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/mail.png">
 
     </head>
 
     <body>
-        
         <nav>
-            <a href="#">Serviços</a>
-            <ul>
+            <a href="#" id="logo">Serviços</a>
+            <ul> 
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Serviços</a></li>
                 <li><a href="#imagens">Imagens</a></li>
@@ -34,8 +44,8 @@
 
         <header id="topo">
             <h1>Equipe de Ponta - Serviços Web</h1>
-            <p>
-                Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
+            <p onclick="alert('Alô Mundo!')" >
+                Somos uma equipe da área de <span class="txt-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
                 Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
                 Segurança da Informação também é uma especialidade que dominamos.
             </p>
@@ -45,14 +55,14 @@
         <section id="sobre">
             <h2>Sobre</h2>
             <p>
-                A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+                A empresa <small class="txt-css">EQUIPE DE PONTA</small> foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
                 Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
             </p>
             <a href="#contato">Contrate Agora</a>
         </section>
 
         <section id="servicos">
-            <h2>Serviços</h2>
+            <h2 class="txt-css">Serviços</h2>
 
             <div>
                 <img src="./img/cursos.png" alt="Icones de Linguagens de Programação." width="30%" title="Curso de diversas linguagens de programação.">
@@ -100,6 +110,7 @@
         </section>
 
         <section id="contato">
+            <!-- 
             <h2>Contato</h2>
             <p>Fale Conosco</p>
             
@@ -112,19 +123,44 @@
                 <img src="./img/mail.png" alt="Envelope.">
                 <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
             </div>
+        -->
+
+            <div>
+                <div>
+                    <form action="index.html" method="POST" onsubmit="true">
+                        <fieldset>
+                            <legend>LOGIN</legend>
+                            <div>
+                                <label for="qUserId">Usuário</label>
+                                <input type="text" name="qUser" id="qUserId"  placeholder="Digite seu usuário">                                
+                            </div>
+                            <div>
+                                <label for="qPassId">Senha</label>
+                                <input type="password" name="qPass" id="qPassId"  placeholder="Digite sua senha">                                
+                            </div>
+                            <div>
+                                <input type="submit" value="ENVIAR">
+                            </div>
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+
+
 
         </section>
 
         <footer>
             <a href="#topo">Voltar</a>
-            <p style="color: black;">Desenvolvido por <span>RM95535</span></p>
-            <p>Todos os direitos reservados . 20022&copy;</p>
-            <div>
-                &#9757
-            </div>
+            <p>Desenvolvido por <span>RM95535</span></p>
+            <p>Todos os direitos reservados. 2022&copy;</p>
         </footer>
 
-
+        <script>
+            console.warn('ÚLTIMA LINHA!')
+        </script>
     </body>
 
 </html>
