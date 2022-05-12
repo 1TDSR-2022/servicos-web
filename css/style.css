@@ -56,22 +56,6 @@ font-family: 'Oswald', sans-serif;
         border: solid #ff0000 2px;
         font-size: 2em;
     }
-
-    a:visited{
-        color: chartreuse;
-    }
-
-    a:link{
-        color: darkorange;
-    }
-
-    h2:hover{
-        color: darkred;
-    }
-
-    #topo{
-        background-image: url(../img/fundo-pc.jpg);
-    }
 /* GRUPO CORES */
 
 
@@ -90,6 +74,4 @@ h1{
     letter-spacing: 2px;
     opacity: 0.8;
 }
-
  */
-
