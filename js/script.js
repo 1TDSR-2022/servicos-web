@@ -8,4 +8,4 @@ elementoLigar.addEventListener("click", ()=>{
 elementoDesligar.addEventListener("click", ()=>{
     document.querySelector("#imgDesligarId").src="./img/bulb-off.png"
 })
-
+ 
