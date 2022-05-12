@@ -6,16 +6,16 @@
             */
 
 //DECLARAÇÃO DE VARIÁVEIS COM var
-var nome = "Alê"
+//var nome = "Alê"
 //CONCATENAÇÃO UTILIZAR O SINAL DE ( + )
-console.log("Meu nome é : " + nome)
+//console.log("Meu nome é : " + nome)
 
 //DECLARAÇÃO DE VARIÁVEIS COM let
-let sobrenome = "Carlos"
-console.log("Meu nome completo é : " + (nome + " " + sobrenome) )
+//let sobrenome = "Carlos"
+//console.log("Meu nome completo é : " + (nome + " " + sobrenome) )
 
 //VETORES / ARRAYS / LISTAS / COLEÇÕES
-var frutas = ["maçã","banana","laranja","uva","kiwi"]
+//var frutas = ["maçã","banana","laranja","uva","kiwi"]
 //Imprimindo o conteúdo do array console.table(frutas)
 
 //Verificando o primeiro elemento do array.
@@ -87,18 +87,29 @@ var frutas = ["maçã","banana","laranja","uva","kiwi"]
 //DECLARAÇÃO DE CONSTANTES com const
 //utilizamos as contantes para armazenar geralmente os
 // elementos que vamos trabalhar.
-const elementoLogo = document.querySelector("#logo")
+//const elementoLogo = document.querySelector("#logo")
 
 //Utilizando a função AddEventListenner para escutar possíveis
 //eventos que ocorram com o elemento.
-elementoLogo.addEventListener("click",function(){
-    elementoLogo.innerHTML = "SERVIÇOS ESPECIALIZADOS"
-})
+//elementoLogo.addEventListener("click",function(){
+//    elementoLogo.innerHTML = "SERVIÇOS ESPECIALIZADOS"
+//})
 
 //Selecionando elementos com NOTAÇÃO CSS
 //Ex: listaDeLi = ['li', 'li']
-const listaDeLi = document.querySelectorAll("li")
+//const listaDeLi = document.querySelectorAll("li")
+//
+//for (const elementoLi of listaDeLi) {
+//    console.log("Conteudo do <li>: " + elementoLi.innerHTML )
+//}
 
-for (const elementoLi of listaDeLi) {
-    console.log("Conteudo do <li>: " + elementoLi.innerHTML )
-}
+const elementoLigar=document.querySelector("#ligarId")
+const elementoDesligar=document.querySelector("#desligarId")
+
+elementoLigar.addEventListener("click", ()=>{
+    document.querySelector("#imgDesligarId").src="./img/bulb-on.png"
+})
+
+elementoDesligar.addEventListener("click", ()=>{
+    document.querySelector("#imgDesligarId").src="./img/bulb-off.png"
+})
