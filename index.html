@@ -1,128 +1,165 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serviços</title>
 
-    <link rel="stylesheet" href="./css/style.css">
-    <!--stylesheet = folha de estilo-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Serviços</title>
 
-    <link rel="icon" href="./img/img/mail.png">
+        <script src="./js/script.js" defer></script>
 
+        <script>
+            //COMENTÁRIO DE LINHA
+            /*
+                    COMENTÁRIO DE BLOCO
+            */
+            console.log('Alô Você!')
+        </script>
 
-    <style>
-        p{
-            color:white;
-            background-color: blue;
-        }
-    </style>
+<!-- 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,600&family=Nunito:wght@700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<style>
+            @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,500;1,600&family=Nunito:wght@700&family=Oswald:wght@500;700&display=swap');
+        </style> -->
 
-</head>
-<body>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./img/mail.png">
 
-    <nav>
-        <a href="#">Serviços</a>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#imagens">Imagens</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+    </head>
 
-    <header id="topo">
-        <h1>Equipe de Ponta -- Serviços Web</h1>
-        <p>
-            Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes. Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado.
-            WorkShops com os mais distintos especialistas da área.Segurança da Informação também é uma especialidade que dominamos.
-        </p>
-        <a href="#servicos">Ver mais...</a>
-    </header>
+    <body>
+        <nav>
+            <a href="#" id="logo">Serviços</a>
+            <ul> 
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#imagens">Imagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
 
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>
-            A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
-            Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
-        </p>
-        <a href=""#contato>Contrate Agora</a>
-    </section>
-
-    <section id="servicos">
-        <h2>Serviços</h2>
-
-        <div>
-            <img src="./img/img/cursos.png" alt="pessoa utilizando o computador com ícones de linguagens de computação famosos aparecendo nas laterais." width="30%" title="Curso de diversas linguagens de programação"> 
-            <h3>Cursos de Programação</h3>
-            <p>
-                Programe nas principais linguagens e plataformas. Explore plataformas como Python, Node.JS, PHP, Java, e .NET a fundo, além de muito mais... Iniciantes são bem vindos e recebem todo o suporte para alcançarem o mesmo nível de conhecimento que os seus colegas da área.
+        <header id="topo">
+            <h1>Equipe de Ponta - Serviços Web</h1>
+            <p onclick="alert('Alô Mundo!')" >
+                Somos uma equipe da área de <span class="txt-css">Tecnologia</span>, onde podemos atuar em diversas frentes.
+                Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
+                Segurança da Informação também é uma especialidade que dominamos.
             </p>
-
-            <img src="./img/img/desenvolvimento.jpg" alt="imagem animada com telas de dispositivos eletrônicos ligados." width="30%" title="Desenvolvimento Web com plataformas modernas.">
-            <h3>Desenvolvimento Web</h3>
+            <a href="#servicos">Ver mais...</a>
+        </header>
+        
+        <section id="sobre">
+            <h2>Sobre</h2>
             <p>
-                Profissionais qualificados, atuantes na área a mais de 20 anos e conhecedores do mercado atual, prontos para desenvolverem o seu website na internet ou em uma intranet da sua preferência. 
+                A empresa <small class="txt-css">EQUIPE DE PONTA</small> foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+                Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
             </p>
+            <a href="#contato">Contrate Agora</a>
+        </section>
 
-            <img src="./img/img/eventos.jpg" alt="fone de ouvido grande colocado horizontalmente numa superficie" width="30%" title="Workshops Remotos.">
-            <h3>WorkShops</h3>
-            <p>
-               Oferecemos semestralmente WorkShops, podcast e vídeos autorais com convidados influentes na área da tecnologia, como o renomeado professor da FIAP Alexandre Carlos de Jesus, com vasta experiência na área de HTML e GIT.  
-            </p>
+        <section id="servicos">
+            <h2 class="txt-css">Serviços</h2>
 
-            <img src="./img/img/seguranca-info.png" alt="nuvem de palavras relacionado a sefurança de informação na rede, como por exemplo bitcoin, blackdoor, cyber security, dark web, entre outros. "width="30%" title="Cuidado com os dados é primordial.">
-            <h3>Segurança da Informação</h3>
-            <p>
-                Segurança em relação aos dados privados do usuário e do sistema utilizado, visando a proteção contra terceiros mal-intencionados que queiram usar esses dados sem a permissão adequada.
-            </p>
-        </div>
+            <div>
+                <img src="./img/cursos.png" alt="Icones de Linguagens de Programação." width="30%" title="Curso de diversas linguagens de programação.">
+                <h3>Cursos de Programação</h3>
+                <p>
+                    Diversos Cursos
+                </p>
+            </div>
 
-    </section>
+            <div>
+                <img src="./img/desenvolvimento.jpg" alt="Gadgets." width="30%" title="Desenvolvimento Web com plataformas Modernas.">
+                <h3>Desenvolvimento Web</h3>
+                <p>
+                    Desenvolvimento Web voltado para pequenas e grandes empresas.
+                </p>
+            </div>
+            
+            <div>
+                <img src="./img/eventos.jpg" alt="Fones de Ouvido." width="30%" title="Workshops Remotos.">
+                <h3>WorkShops</h3>
+                <p>
+                    Os melhores especialistas do mercado a sua disposição para ministrar conteúdo de primeira para sua equipe e clientes.
+                </p>
+            </div>
 
-    <section id="imagens">
-        <h2>Imagens</h2>
+            <div>
+                <img src="./img/seguranca-info.png" alt="Nuvem de palavras." width="30%" title="Cuidado com os dados é primordial.">
+                <h3>Segurança da Informação</h3>
+                <p>
+                    Hoje a Segurança da Informação é algo que garante estabilidade e integridade dos dados.
+                </p>
+            </div>
+        </section>
 
-        <img src="./img/img/backbone.jpg" alt="Conexões de Redes." width="100%">
-        <img src="./img/img/cidade.jpg" alt="Cidade." width="100%">
-        <img src="./img/img/internet.jpg" alt="Rede Mundial." width="100%">
-        <img src="./img/img/rede.jpg" alt="Redes Neurais" width="100%">
-        <img src="./img/img/icones.png" alt="ícones." width="100%">
-        <img src="./img/img/comunicao.jpg" alt="Pontos Luminosos" width="100%">
+        <section id="imagens">
+            <h2>Imagens</h2>
 
-    </section>
+            <img src="./img/backbone.jpg" alt="Conexôes de Redes." width="100%">
+            <img src="./img/cidade.jpg" alt="Cidade." width="100%">
+            <img src="./img/internet.jpg" alt="Rede Mundial." width="100%">
+            <img src="./img/rede.jpg" alt="Redes Neurais." width="100%">
+            <img src="./img/icones.png" alt="Icones." width="100%">
+            <img src="./img/comunicao.jpg" alt="Redes Neurais." width="100%">
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <div>
-            <img src="./img/img/tel.png" alt="Telefone">
-            <p><a href="tel:+5511986590987">+55 (11) 98659-0987"</a></p>
-        </div>
-        <div>
-            <img src="./img/img/mail.png" alt="Envelope">
-            <p><a href="mailto:rm93668@fiap.com.br">rm93668@fiap.com.br</a></p>
-        </div>
-    </section>
+        </section>
 
-    <footer>
+        <section id="contato">
+            <!-- 
+            <h2>Contato</h2>
+            <p>Fale Conosco</p>
+            
+            <div>
+                <img src="./img/tel.png" alt="Telefone.">
+                <p><a href="tel:+5511986590987">(11) 98659-0987</a></p>
+            </div>
+            <div>
+                <img src="./img/mail.png" alt="Envelope.">
+                <p><a href="mailto:profalexandre.jesus@fiap.com.br">profalexandre.jesus@fiap.com.br</a></p>
+            </div>
+        -->
 
-        <a href="#topo">Voltar</a>
-        <p>Desenvolvido por <span>RM93668</span></p>
-        <p>Todos os direitos reservados.2022&copy;</p>
-        <!--
-        Informações do autor da página;
-        Informações do aythor de Copyrigth
-        Data
-        Email
-        Redes sociais
-        Simbolos
-         -->
+            <div>
+                <div>
+                    <form action="index.html" method="POST" onsubmit="true">
+                        <fieldset>
+                            <legend>LOGIN</legend>
+                            <div>
+                                <label for="qUserId">Usuário</label>
+                                <input type="text" name="qUser" id="qUserId"  placeholder="Digite seu usuário">                                
+                            </div>
+                            <div>
+                                <label for="qPassId">Senha</label>
+                                <input type="password" name="qPass" id="qPassId"  placeholder="Digite sua senha">                                
+                            </div>
+                            <div>
+                                <input type="submit" value="ENVIAR">
+                            </div>
 
-    </footer>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
 
 
 
 
-</body>
+        </section>
+
+        <footer>
+            <a href="#topo">Voltar</a>
+            <p>Desenvolvido por <span>PF0670</span></p>
+            <p>Todos os direitos reservados. 2022&copy;</p>
+        </footer>
+
+        <script>
+            console.warn('ÚLTIMA LINHA!')
+        </script>
+    </body>
+
 </html>
