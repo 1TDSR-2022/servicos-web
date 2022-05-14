@@ -1,0 +1,21 @@
+
+/* ESTRUTURA */
+.box{
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    padding-top: 4%;
+    border-style: solid;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-right: 3px;
+    border-left: 3px;
+}
+/* ESTRUTURA */
+
+/* CORES */
+.cores{
+    background-color: rgb(0, 0, 255);
+    color:#ffffff;
+}
+/* CORES */
