@@ -1,0 +1,21 @@
+
+/* ESTRUTRA  */
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 5%;
+    border-style: solid;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-right: 3px;
+    border-left: 3px;
+}
+/* ESTRUTRA  */
+
+/* CORES  */
+.cores{
+    background-color: rgb(165, 42, 42);
+    color: #ffffff;  
+}
+/* CORES */
